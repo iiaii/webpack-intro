@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af40ea6-331d-45e4-b167-ddb176908ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting-started/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/getting-started/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
-      <workItem from="1597360982858" duration="1045000" />
+      <workItem from="1597360982858" duration="1802000" />
     </task>
     <servers />
   </component>
@@ -93,9 +89,10 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597239263981" />
-    <state x="240" y="130" key="Vcs.Push.Dialog.v2" timestamp="1597241578180">
-      <screen x="0" y="23" width="1280" height="734" />
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597362235231">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597362235231" />
     <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597241578180" />
   </component>
 </project>

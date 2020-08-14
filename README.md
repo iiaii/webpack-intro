@@ -3,7 +3,7 @@
 ### Entry
 
 
-webpack으로 묶은 모든 라이브러리들을 로딩할 시작점 설정하는 지점으로 배열이나 객체 형태로 여러 엔트리 포인트 지정이 가능하다
+webpack으로 묶은 모든 라이브러리들을 로딩할 시작점을 설정하는 지점으로 배열이나 객체 형태로 여러 엔트리 포인트 지정이 가능하다
 
 - 간단한 entry 설정
 
@@ -46,7 +46,7 @@ module.exports = {
     entry: './app/index.js',        // 배열, 객체 형태도 가능
     output: {                       // 출력 위치
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist') // 
     }
 };
 ```
@@ -67,8 +67,50 @@ module.exports = {
 
 // 번들 Profile.js 를 <script src="build/Profile.js"></script>로 html에 삽입
 ```
+ 
+---
+### Output
 
+entry에서 설정하고 묶은 파일의 결과 값에 대한 설정
 
+```javascript
+import { path } from './path';
+
+module.exports = {
+    entry: './app/index.js',        
+    output: {
+        path: path.resolve(__dirname, 'dist'),                       
+        filename: 'bundle.js'
+        // filename: '[name].js'
+    }
+};
+```
+ 
+##### Output Name options
+
+- name : 엔트리 명에 따른 output 파일명 생성
+
+```javascript
+output: { 
+    filename: '[name].js',
+}
+```
+
+- hash : 특정 webpack build에 따른 output 파일명 생성
+
+```javascript
+output: { 
+    filename: '[hash].js',
+}
+```
+
+- chunkhash : 특정 webpack chunk에 따른 output 파일명 생성
+
+```javascript
+output: { 
+    filename: '[chunkhash].js',
+}
+```
 
 
 
