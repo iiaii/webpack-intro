@@ -1,5 +1,13 @@
 # webpack-intro
 
+##### Webpack에서 모든 것은 모듈이다
+
+- [Webpack Entry](https://github.com/iiaii/webpack-intro#entry)
+- [Webpack Output](https://github.com/iiaii/webpack-intro#output)
+- [Webpack Loader](https://github.com/iiaii/webpack-intro#loader)
+ 
+   
+---
 ### Entry
 
 
@@ -68,6 +76,7 @@ module.exports = {
 // 번들 Profile.js 를 <script src="build/Profile.js"></script>로 html에 삽입
 ```
  
+ 
 ---
 ### Output
 
@@ -77,7 +86,7 @@ entry에서 설정하고 묶은 파일의 결과 값에 대한 설정
 import { path } from './path';
 
 module.exports = {
-    entry: './app/index.js',        
+    entry: ...,        
     output: {
         path: path.resolve(__dirname, 'dist'),                       
         filename: 'bundle.js'
@@ -111,7 +120,75 @@ output: {
     filename: '[chunkhash].js',
 }
 ```
+ 
+  
+ ---
+ ### Loader
+ 
+Webpack은 javascript만 처리가 가능하도록 되어 있는데, loader를 이용하여 다른 형태의 웹 자원들은 (img, css ...) js로 변환하여 로딩한다 (모든 것을 모듈로 보기 위해)
+ 
+```javascript
+module.exports = {
+    entry: {
+        ...
+    },
+    output: {
+        ...
+    },
+    module: {
+        rules: [{
+            test: /\.css$/,     // regexp
+            use: [
+                'style-loader', 
+                'css-loader'
+            ]
+        }]
+    }   
+}
+```
 
+- loader에서 모듈 로딩 순서는 배열의 요소 오른쪽에서 왼쪽으로 진행된다
 
+```javascript
+{
+    test: /backbone/,
+    use: [
+        'expose-loader?Backbone',
+        'imports-loader?_=underscore,jquery'  // (1)jquery (2)underscore 로딩
+    ] 
+}
+```
 
+▼ 아래와 같이 번들링 됨
 
+```javascript
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+var _ = __webpack_require__(0);
+var jquery = __webpack_require__(1);
+```
+
+##### Babel Loader - ES6
+
+```javascript
+module: {
+    rules: [{
+        test: /\.js$/,
+        use: [{
+            loader: 'babel-loader',
+            options: {
+                presets: [
+                    'es2015',
+                    'react',
+                    { modules: false }
+                    // Tree Shaking - 쓰지 않는 모듈들을 털어냄
+                ] 
+            }
+        }]
+    }]
+}
+```
+
+ 
+ 
+---
+- [inflearn webpack](https://www.inflearn.com/course/%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9%ED%8C%A9) 

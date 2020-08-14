@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
-      <workItem from="1597360982858" duration="1802000" />
+      <workItem from="1597360982858" duration="5927000" />
     </task>
     <servers />
   </component>
@@ -89,10 +89,14 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597239263981" />
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597362235231">
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597364328083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597362235231" />
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597364328083" />
     <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597241578180" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597364805443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597364805443" />
   </component>
 </project>
