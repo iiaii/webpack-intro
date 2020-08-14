@@ -1,0 +1,21 @@
+{
+  "name": "libraries-splitting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-manifest-plugin": "^2.2.0"
+  },
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0"
+  }
+}
