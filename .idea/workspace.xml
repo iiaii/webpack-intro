@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af40ea6-331d-45e4-b167-ddb176908ce9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolve-modules/Vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolve-modules/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolve-modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolve-modules/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-splitting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-splitting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resolve-modules/Vendor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -43,6 +45,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\iiaii\Desktop\project\webpack-intro\resolve-modules\Vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\iiaii\Desktop\project\webpack-intro\code-splitting" />
       <recent name="C:\Users\iiaii\Desktop\project\webpack-intro\code-splitting\app" />
@@ -76,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
-      <workItem from="1597360982858" duration="18249000" />
+      <workItem from="1597360982858" duration="20509000" />
     </task>
     <servers />
   </component>
@@ -112,10 +117,10 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597239263981" />
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597388938609">
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597389927125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597388938609" />
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597389927125" />
     <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597241578180" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597364805443">
       <screen x="0" y="0" width="1920" height="1040" />
