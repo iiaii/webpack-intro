@@ -6,6 +6,7 @@
 - [Webpack Output](https://github.com/iiaii/webpack-intro#output)
 - [Webpack Loader](https://github.com/iiaii/webpack-intro#loader)
 - [Webpack Plugin](https://github.com/iiaii/webpack-intro#plugin)
+- [Webpack Resolve](https://github.com/iiaii/webpack-intro#resolve)
  
    
 ---
