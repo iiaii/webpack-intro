@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af40ea6-331d-45e4-b167-ddb176908ce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-splitting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-splitting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/code-splitting/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +31,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\iiaii\Desktop\project\webpack-intro\code-splitting" />
+      <recent name="C:\Users\iiaii\Desktop\project\webpack-intro\code-splitting\app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -65,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
-      <workItem from="1597360982858" duration="5927000" />
+      <workItem from="1597360982858" duration="18249000" />
     </task>
     <servers />
   </component>
@@ -73,6 +84,18 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1597379989329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597379989329" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1597379350085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597379350085" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597381249633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597381249633" />
     <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1597239263982">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
@@ -89,14 +112,25 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597239263981" />
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597364328083">
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597388938609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597364328083" />
+    <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597388938609" />
     <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597241578180" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597364805443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597364805443" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/code-splitting/webpack.config.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
