@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af40ea6-331d-45e4-b167-ddb176908ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resolve-modules/Vendor/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolve-modules/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolve-modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolve-modules/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolve-modules/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/resolve-modules/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolve-modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resolve-modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolve-modules/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resolve-modules/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resolve-modules/Vendor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -82,11 +79,12 @@
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
       <workItem from="1597360982858" duration="20509000" />
+      <workItem from="1597458907330" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1597379989329">
@@ -132,7 +130,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/code-splitting/webpack.config.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
