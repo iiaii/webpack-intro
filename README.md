@@ -308,12 +308,26 @@ require() import '' 등의 모듈 로딩시에 어느 폴더를 기준할 것인
 modules: ["node_modules"] //
 modules: [path.resolve(__dirname, "src"), "node_modules"] // src/node_modules
 ```
-
-
+ 
+ 
 ---
 ### Webpack Dev
 
 webpack-dev-server 를 사용해도 되지만 Vue를 사용하는 경우 Vue cli를 사용해도 대체가 가능하다 
+
+
+##### Path vs Public Path
+
+- output.path : 번들링한 결과가 위치할 번들링 파일의 절대 경로 지정
+- output.publicPath : 브라우저가 참고할 번들링 결과 파일의 URL 주소를 지정 (CDN을 사용하는 경우 CDN호스트 지정)
+
+
+```javascript
+output: {
+    path: "/home/proj/public/assets",
+    publicPath: "/assets/"
+}
+```
 
  
 ---
