@@ -8,6 +8,17 @@
 - [Webpack Plugin](https://github.com/iiaii/webpack-intro#plugin)
 - [Webpack Resolve](https://github.com/iiaii/webpack-intro#resolve)
  
+ 
+ ---
+ ### Webpack 명령어
+ 
+ - webpack : 기본 빌드 및 번들링
+ - webpack -p : minification 기능이 들어간 빌드 (배포용 - production)
+ - webpack -watch(-w) : 개발에서 빌드할 파일의 변화를 감지
+ - webpack -d : sourcemap 포함하여 빌드
+ - webpack --display-error-details : error 발생시 디버깅 정보를 상세히 출력
+ - webpack --optimize-minimize --define process.env.NODE_ENV="'production'" : 배포용 (일반적으로 webpack.config.js에 포함)
+
    
 ---
 ### Entry
