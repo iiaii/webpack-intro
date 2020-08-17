@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af40ea6-331d-45e4-b167-ddb176908ce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev-middleware/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-middleware/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-middleware/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-server/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-server/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,13 +28,16 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1g045xFY2XHh8MEGmsxicb8W270" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,7 +91,7 @@
       <updated>1597237997389</updated>
       <workItem from="1597238006783" duration="3509000" />
       <workItem from="1597360982858" duration="20509000" />
-      <workItem from="1597458907330" duration="5538000" />
+      <workItem from="1597458907330" duration="9830000" />
     </task>
     <servers />
   </component>
@@ -98,6 +111,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597381249633" />
+    <state x="221" y="23" key="CommitChangelistDialog2" timestamp="1597630734307">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="221" y="23" key="CommitChangelistDialog2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597630734307" />
     <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1597239263982">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
@@ -114,11 +131,11 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597239263981" />
-    <state x="240" y="130" key="Vcs.Push.Dialog.v2" timestamp="1597582806430">
+    <state x="240" y="130" key="Vcs.Push.Dialog.v2" timestamp="1597629896848">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state x="360" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597389927125" />
-    <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597460721527" />
+    <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1597629896848" />
     <state x="240" y="130" key="Vcs.Push.Dialog.v2/0.23.1280.734@0.23.1280.734" timestamp="1597582806430" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597364805443">
       <screen x="0" y="0" width="1920" height="1040" />
